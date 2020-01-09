@@ -13,7 +13,7 @@ if 1<n<100 and 1<m<100 and 0<k<m*n:
         a[x-1][y-1]='*'         #set star in a[x-1][y-1]
 
     
-        if a[x-2][y-2]!='*':    #Insert corresponding numbers in adjacent cell 
+        if a[x-2][y-2]!='*':    #Insert numbers in adjacent cell 
                         f=int(a[x-2][y-2])
                         
                         f+=1
